@@ -1,0 +1,14 @@
+.all-item {
+  background-color: khaki;
+  margin-top: 5px;
+}
+
+.my-span {
+  font-weight: 600;
+  color: orangered;
+}
+
+.button {
+  background-color: aqua;
+  float: right;
+}
