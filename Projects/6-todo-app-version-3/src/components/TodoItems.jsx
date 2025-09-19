@@ -3,7 +3,7 @@ import TodoItem from "./TodoItem";
 import { useContext } from "react";
 const TodoItems = ({ todoItems, onDeleteClick }) => {
   const todoItemsFromContext = useContext(todoItemsContext);
-  console.log(`items from context: ${todoItemsFromContext}`);
+  // console.log(`items from context: ${todoItemsFromContext}`);
   return (
     <div className="items-container">
       {todoItems.map((item, index) => (
